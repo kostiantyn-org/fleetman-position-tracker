@@ -24,6 +24,8 @@ spec:
           httpGet:
             path: /vehicles/
             port: 8080
+          timeoutSeconds: 5
+          periodSeconds: 15
 ---
 apiVersion: v1
 kind: Service
